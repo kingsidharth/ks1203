@@ -6,6 +6,7 @@ A Child Theme for [Thesis Theme Framework](http://www.64notes.com/thesis) for [W
 ------------
 **Version :** 1.0
 **Author  :** [King Sidharth](http://www.kingsidharth.com)
+
 ------------
 
 ## You need:
