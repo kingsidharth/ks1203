@@ -83,6 +83,14 @@
     float: left;
     margin-right: 0.5em; }
 
+dl#comment_list .bypostauthor, .note, .alert {
+  color: #333333; }
+  dl#comment_list .bypostauthor a, .note a, .alert a {
+    color: #333333;
+    border-color: #cccccc; }
+    dl#comment_list .bypostauthor a:hover, .note a:hover, .alert a:hover {
+      border-color: #333333; }
+
 /* Sidebars */
 #sidebar_1 {
   margin-top: 2em;
