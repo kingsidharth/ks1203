@@ -20,6 +20,7 @@ A Child Theme for [Thesis Theme Framework](http://www.64notes.com/thesis) for [W
 
 ## Instruction
 + Install it like just another theme.
++ Upload thesis-design-options-xxxxxx.dat file in **Thesis > Manage Options > Design Options** in WordPress backend.
 
 ## License
 + You can use it for commercial & non-commercial purpose **without removing the attribution**.
@@ -28,3 +29,10 @@ A Child Theme for [Thesis Theme Framework](http://www.64notes.com/thesis) for [W
 + There is no gurantee of any sorts.
 + Thesis License is subject to agreement with DIY Themes and this License does **not** cover Thesis.
 
+### To-Dos
++ Fix logo in header, no one wants to use my logo.
++ Better styling for comments.
++ Back-end options for Social Media Buttons, Scripts etc.
+
+
+Got a query suggestion or threat? Get tweeting, find me at [@kingsidharth](http://twitter.com/kingsidharth)
