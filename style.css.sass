@@ -29,6 +29,10 @@ $dgrey  : #CCC
     &:hover
       text-decoration: none
       border-bottom: 1px solid $grey
+.format_text a
+  text-decoration: none
+  &:hover
+    text-decoration: none
 
 
 ::selection
@@ -44,9 +48,9 @@ $dgrey  : #CCC
   padding-top: 6em
   padding-bottom: 6em
 #logo a
-  background: url('images/king-sidharth-logo.png') top left no-repeat
+  background: url('images/king-sidharth-logo.png') top right no-repeat
   display: block
-  width: 200px
+  width: 220px
   height: 28px
   text-indent: -9999px
   position: fixed
@@ -60,13 +64,20 @@ $dgrey  : #CCC
     background: none
 
 /* Content
-body.home #content_box
+#content_box
   .post
+  .teasers_box
+    padding: 0
+    .teaser
+      width: 100%
+      margin-bottom: 1em
+      padding-bottom: 1em
 
 /* Sidebars
 #sidebar_1
   margin-top: 2em
   position: fixed
+  text-align: right
 .sidebar
   .widget
     border-bottom: 1px dotted $dgrey
@@ -75,6 +86,5 @@ body.home #content_box
       font-variant: normal
       font-weight: bold
       letter-spacing: 0px
-    a :hover
+    a, a:hover
       text-decoration: none
-
