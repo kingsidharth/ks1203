@@ -106,3 +106,10 @@ dl#comment_list .bypostauthor, .note, .alert {
     letter-spacing: 0px; }
   .sidebar .widget a, .sidebar .widget a:hover {
     text-decoration: none; }
+
+/* Footer */
+#footer {
+  border-top: 1px solid #333333;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px inset; }
