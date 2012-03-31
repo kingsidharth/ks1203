@@ -23,6 +23,11 @@ class TM {
 		## Navigation
 		add_action('thesis_hook_before_html', 'tm_nav_area');
 		remove_action('thesis_hook_before_header', 'thesis_nav_menu');
+
+    #Footer
+    remove_action('thesis_hook_footer', 'thesis_attribution'); #Remove thesis attribution
+    add_action('thesis_hook_footer', 'footer_attrb_cp');       #Add attribution and Copyright
+    add_action('wp_footer','footer_scripts');                  #Add Social Media async script calls
 	}
 
 	function filters() {

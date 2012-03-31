@@ -4,8 +4,13 @@ Design of [**K**ing**S**idharth.com](http://www.kingsidharth.com) 20**12** March
 A Child Theme for [Thesis Theme Framework](http://www.64notes.com/thesis) for [WordPress](http://wordpress.org)
 
 ------------
+
+
 **Version :** 1.0
+
 **Author  :** [King Sidharth](http://www.kingsidharth.com)
+
+
 
 ------------
 

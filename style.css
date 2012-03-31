@@ -11,6 +11,11 @@
   font-family: "Lucida Grande", "Lucida Sans", sans-serif; }
   .custom .page {
     background: none; }
+  .custom a {
+    border-bottom: 1px dotted #eeeeee; }
+    .custom a:hover {
+      text-decoration: none;
+      border-bottom: 1px solid #eeeeee; }
 
 ::selection {
   background: #eeeeee;
@@ -42,9 +47,11 @@
   position: fixed; }
 
 .sidebar .widget {
-  border-bottom: 1px dotted #eeeeee; }
+  border-bottom: 1px dotted #cccccc; }
   .sidebar .widget h3 {
     text-transform: uppercase;
     font-variant: normal;
     font-weight: bold;
     letter-spacing: 0px; }
+  .sidebar .widget a :hover {
+    text-decoration: none; }
