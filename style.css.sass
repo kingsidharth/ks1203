@@ -1,21 +1,47 @@
 /*
- * Theme Name: Adder
- * Theme URI: http://thesismods.com/themes/adder/
- * Author: the Thesis Mods team
- * Author URI: http://thesismods.com/
- * Description: Content focussed theme.
+ * Theme Name: KS1203 
+ * Theme URI: http://www.kingsidharth.com
+ * Author: King Sidharth
+ * Author URI: http://www.kingsidharth.com/
+ * Description: Add this oen.
  * Version: 1.0
- * Template: thesis_184
+ * Template: thesis_184 */
+
+//Colors
+$black  : #333
+$white  : #F9F9F9
+$grey   : #EEE
+
+
+//Typography
+@mixin sans
+  font-family: 'Lucida Grande', 'Lucida Sans', sans-serif
+
+.custom
+  background: url('images/background.jpg') top left repeat
+  background-attachment: fixed
+  +sans
+  .page
+    background: none
+
 
 ::selection
-  background: #FF8067
-  color: white
+  background: $grey 
+  color: $white
 
 ::-moz-selection
-  background: #FF8067
-  color: white
+  background: $grey
+  color: $white
   
 /* Header
+#logo
+  background: url('images/king-sidharth-logo.png') top left no-repeat
+  display: block
+  width: 200px
+  height: 28px
+  text-indent: -9999px
+  position: fixed
+
 /** Navigation
 .menu
   border-bottom: none
@@ -25,3 +51,16 @@
 /* Content
 body.home #content_box
   .post
+
+/* Sidebars
+#sidebar_1
+  margin-top: 2em
+  position: fixed
+.sidebar
+  .widget
+    border-bottom: 1px dotted $grey
+    h3
+      text-transform: uppercase
+      font-variant: normal
+      font-weight: bold
+      letter-spacing: 0px

@@ -1,0 +1,50 @@
+/* Theme Name: KS1203 
+ * Theme URI: http://www.kingsidharth.com
+ * Author: King Sidharth
+ * Author URI: http://www.kingsidharth.com/
+ * Description: Add this oen.
+ * Version: 1.0
+ * Template: thesis_184 */
+.custom {
+  background: url("images/background.jpg") top left repeat;
+  background-attachment: fixed;
+  font-family: "Lucida Grande", "Lucida Sans", sans-serif; }
+  .custom .page {
+    background: none; }
+
+::selection {
+  background: #eeeeee;
+  color: #f9f9f9; }
+
+::-moz-selection {
+  background: #eeeeee;
+  color: #f9f9f9; }
+
+/* Header */
+#logo {
+  background: url("images/king-sidharth-logo.png") top left no-repeat;
+  display: block;
+  width: 200px;
+  height: 28px;
+  text-indent: -9999px;
+  position: fixed; }
+
+/*Navigation */
+.menu {
+  border-bottom: none; }
+  .menu li a {
+    background: none; }
+
+/* Content */
+/* Sidebars */
+#sidebar_1 {
+  margin-top: 2em;
+  position: fixed; }
+
+.sidebar .widget {
+  border-bottom: 1px dotted #eeeeee; }
+  .sidebar .widget h3 {
+    text-transform: uppercase;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 0px; }

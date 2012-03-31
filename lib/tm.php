@@ -17,8 +17,9 @@ class TM {
 
 		# Pages
 		## Home
-		add_filter('thesis_show_sidebars', 'tm_show_sidebars');
-		# Header
+		//add_filter('thesis_show_sidebars', 'tm_show_sidebars');
+    
+    # Header
 		## Navigation
 		add_action('thesis_hook_before_html', 'tm_nav_area');
 		remove_action('thesis_hook_before_header', 'thesis_nav_menu');
