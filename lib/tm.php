@@ -23,6 +23,9 @@ class TM {
 		## Navigation
 		remove_action('thesis_hook_before_header', 'thesis_nav_menu');
 
+    #Content
+    add_action('thesis_hook_after_post','social_share');
+
     #Footer
     remove_action('thesis_hook_footer', 'thesis_attribution'); #Remove thesis attribution
     add_action('thesis_hook_footer', 'footer_attrb_cp');       #Add attribution and Copyright

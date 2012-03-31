@@ -38,3 +38,20 @@ function footer_attrb_cp() {
   echo '<p id="copyright"> &copy; 2010 - ' . date("Y") . '&nbsp;' . get_bloginfo('name') . '. All words are belong to me.</p>';
   echo '<p id="attrb"> <a href="http://www.kingsidharth.com/ks1203">ks1203</a> for <a href="http://wordpress.org">WordPress</a> & <a href="http://www.64notes.com/thesis" rel="nofollow">Thesis</a>.';
 }
+
+function social_share(){
+  if(is_single()) { ?>
+<ul class="social_share">
+  <li class="fb">
+    <div data-href="<?php the_permalink(); ?>" class="fb-like" data-send="true" data-layout="button_count"></div>  
+  </li><!-- fb -->
+  <li class="tweet">
+    <a data-url="<?php the_permalink(); ?>" class="twitter-share-button" data-count="horizontal"
+        data-via="kingsidharth" data-related="kingsidharth">Tweet This</a> 
+  </li><!-- tweet -->
+  <li class="gplus">
+    <div data-href="<?php the_permalink(); ?>" class="g-plusone" data-size="medium"></div>
+  </li><!-- gplus -->
+</ul><!-- social_share -->
+<?php } }
+
