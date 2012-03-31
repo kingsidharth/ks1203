@@ -21,7 +21,6 @@ class TM {
     
     # Header
 		## Navigation
-		add_action('thesis_hook_before_html', 'tm_nav_area');
 		remove_action('thesis_hook_before_header', 'thesis_nav_menu');
 
     #Footer
