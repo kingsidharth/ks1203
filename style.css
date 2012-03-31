@@ -30,13 +30,15 @@
   padding-top: 6em;
   padding-bottom: 6em; }
 
-#logo {
+#logo a {
   background: url("images/king-sidharth-logo.png") top left no-repeat;
   display: block;
   width: 200px;
   height: 28px;
   text-indent: -9999px;
-  position: fixed; }
+  position: fixed;
+  cursor: pointer;
+  border: none; }
 
 /*Navigation */
 .menu {
