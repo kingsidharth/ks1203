@@ -18,6 +18,10 @@ $dgrey  : #CCC
 @mixin sans
   font-family: 'Lucida Grande', 'Lucida Sans', sans-serif
 
+.headline_area
+  h1, h2
+    font-weight: bold
+
 .custom
   background: url('images/background.jpg') $black top left repeat
   background-attachment: fixed
@@ -65,13 +69,22 @@ $dgrey  : #CCC
 
 /* Content
 #content_box
+  blockquote, .post_tags, .post_nav
+    color: $dgrey
   .post
   .teasers_box
     padding: 0
     .teaser
       width: 100%
-      margin-bottom: 1em
-      padding-bottom: 1em
+      border-bottom: 1px dotted $dgrey
+      margin-bottom: 1.5em
+      padding-bottom: 1.5em
+    .teaser_category
+      text-decoration: none
+      border: none
+    .entry-title a
+      border: none
+      font-weight: bold
   .social_share
     list-style-type: none
     list-style-position: inside

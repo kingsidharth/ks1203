@@ -5,6 +5,9 @@
  * Description: Add this oen.
  * Version: 1.0
  * Template: thesis_184 */
+.headline_area h1, .headline_area h2 {
+  font-weight: bold; }
+
 .custom {
   background: url("images/background.jpg") #333333 top left repeat;
   background-attachment: fixed;
@@ -52,12 +55,21 @@
     background: none; }
 
 /* Content */
+#content_box blockquote, #content_box .post_tags, #content_box .post_nav {
+  color: #cccccc; }
 #content_box .teasers_box {
   padding: 0; }
   #content_box .teasers_box .teaser {
     width: 100%;
-    margin-bottom: 1em;
-    padding-bottom: 1em; }
+    border-bottom: 1px dotted #cccccc;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em; }
+  #content_box .teasers_box .teaser_category {
+    text-decoration: none;
+    border: none; }
+  #content_box .teasers_box .entry-title a {
+    border: none;
+    font-weight: bold; }
 #content_box .social_share {
   list-style-type: none;
   list-style-position: inside;
