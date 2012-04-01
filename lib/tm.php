@@ -25,6 +25,8 @@ class TM {
 
     #Content
     add_action('thesis_hook_after_post','social_share');
+    remove_action('thesis_hook_sidebar_2','thesis_multimedia_box');
+    add_action('thesis_hook_before_sidebar_1', 'thesis_multimedia_box');
 
     #Footer
     remove_action('thesis_hook_footer', 'thesis_attribution'); #Remove thesis attribution
