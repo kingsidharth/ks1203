@@ -55,6 +55,9 @@
     background: none; }
 
 /* Content */
+#content_area {
+  min-height: 700px; }
+
 #content_box blockquote, #content_box .post_tags, #content_box .post_nav {
   color: #cccccc; }
 #content_box .teasers_box {
@@ -128,7 +131,8 @@ dl#comment_list .bypostauthor, .note, .alert {
     border: none;
     background: none;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    display: inline; }
 
 /* Footer */
 #footer {
