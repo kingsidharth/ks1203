@@ -36,7 +36,7 @@ function footer_scripts(){ ?>
 function footer_attrb_cp() {
   # It's not a good idea to remove this.
   echo '<p id="copyright"> &copy; 2008 - ' . date("Y") . '&nbsp;' . get_bloginfo('name') . '. All words are belong to me.</p>';
-  echo '<p id="attrb"> <a href="http://www.kingsidharth.com/ks1203">ks1203</a> for <a href="http://wordpress.org">WordPress</a> & <a href="http://www.64notes.com/thesis" rel="nofollow">Thesis</a>.';
+  echo '<p id="attrb"> <a href="http://www.kingsidharth.com/ks1203">ks1203</a> for <a href="http://wordpress.org">WordPress</a> & <a href="http://www.kingsidharth.com/thesis" rel="nofollow">Thesis</a>.';
 }
 
 function social_share(){
